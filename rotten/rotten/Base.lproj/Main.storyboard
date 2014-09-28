@@ -109,7 +109,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" id="Hgu-z3-5PH">
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" id="Hgu-z3-5PH">
                                 <rect key="frame" x="0.0" y="362" width="320" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -164,7 +164,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kBZ-Cq-ddO" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Movies" image="clapboard" id="9eK-ZX-J00"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YtQ-Gl-zry">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="YtQ-Gl-zry">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -227,9 +227,12 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="HmO-5r-wuB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="Eka-QM-o8G">
+                    <tabBar key="tabBar" alpha="0.80000000000000004" contentMode="scaleToFill" id="Eka-QM-o8G">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="kBZ-Cq-ddO" kind="relationship" relationship="viewControllers" id="Gc0-Ba-BAp"/>
@@ -239,19 +242,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMN-cW-5HE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="74" y="129"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="vXo-kC-Dck">
-            <objects>
-                <viewController id="4lq-ui-agJ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BhS-Fy-BXD">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Wz-Mr-xyN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>
