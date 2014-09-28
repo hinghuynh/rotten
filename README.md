@@ -1,8 +1,7 @@
 # RottenTomatoes Box Office Demo
 
-This is an iOS Swift demo application for displaying the latest box office movies using the [RottenTomatoes API](http://www.rottentomatoes.com/). See the [RottenTomatoes Networking Tutorial](http://vimeo.com/105842473) on our cliffnotes for a step-by-step tutorial.
-
-Time spent: 10 hours spent in total
+This is an iOS Swift demo application for displaying the latest box office movies using the [RottenTomatoes API](http://www.rottentomatoes.com/).
+Time spent: 8 hours spent in total
 
 Completed user stories:
 
