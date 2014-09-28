@@ -17,6 +17,6 @@ Completed user stories:
  * [x] Optional: Add a tab bar for Box Office and DVD
 
 
-![Video Walkthrough](rotten.gif)
+![Video Walkthrough](rottenclip.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
